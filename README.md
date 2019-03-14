@@ -16,6 +16,8 @@ Also, it's just a nice challenge to throw away your muscle memory and learn a ne
 Head over to the [Releases page of this project](https://github.com/SALZKARTOFFEEEL/salz-keyboard-layout/releases).
 There you can download the latest version and find instructions on the installation process.
 
+You can also build the layout yourself, of course. See section [Building](https://github.com/SALZKARTOFFEEEL/salz-keyboard-layout#building) on how to do that.
+
 ## Uninstallation
 If you kept the installation files (the contents of `KBDSALZ.zip`), just launch `setup.exe` to uninstall the layout again.  
 If you lost the files, redownload them.
@@ -30,3 +32,16 @@ Both files are called `KBDSALZ.dll` and they are found in the directories `%WinD
 (`%WinDir%` usually resolves to `C:\Windows`.)  
 Delete them and the layout is uninstalled.  
 You may need to restart your computer.
+
+## Building
+If you just want to use the keyboard layout and trust me on not infecting your computer with malware, just Install SKL normally. See section [Installation](https://github.com/SALZKARTOFFEEEL/salz-keyboard-layout#installation) for that.
+
+To build SKL, follow these steps:
+* First, clone this repository to your local computer or just download `KBDSALZ.klc`, as it is the only source file required.  
+* Next, install the [Microsoft Keyboard Layout Creator v1.4](https://www.microsoft.com/download/details.aspx?id=22339) (MSKLC for short).
+  * Be sure to install it in its default location, or at least its default drive. I've had trouble building when I installed it on a secondary drive.
+* Now open up the `.klc` file with MSKLC.  
+* Be sure to change the working directory; the built files, as well as any logs, will go into there!
+* Go to the menu “Project” and choose “Build DLL and Setup Package”.
+
+If you have done everything correctly, the build will succeed and a folder will appear with all the required files for installation.
