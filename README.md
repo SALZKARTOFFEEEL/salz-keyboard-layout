@@ -19,10 +19,11 @@ There you can download the latest version and find instructions on the installat
 You can also build the layout yourself, of course. See section [Building](https://github.com/SALZKARTOFFEEEL/salz-keyboard-layout#building) on how to do that.
 
 ## Uninstallation
-If you kept the installation files (the contents of `KBDSALZ.zip`), just launch `setup.exe` to uninstall the layout again.  
+If you kept the installation files (the contents of `KBDSALZ.zip`), just launch `setup.exe` to uninstall the layout again.
+
 If you lost the files, redownload them.
 
-In the worst case-scenario that (whatever reason) `setup.exe` fails to uninstall or you cannot download it anymore, you need to uninstall the layout manually.
+In the worst case-scenario, `setup.exe` fails to uninstall the layout or you cannot download it anymore, you need to uninstall the layout manually. The [next section](https://github.com/SALZKARTOFFEEEL/salz-keyboard-layout#manual-uninstallation) explains how to do that.
 
 ### Manual Uninstallation
 This is only necessary in the worst-case scenario described above. If you just want to uninstall the layout, refer to the section above this one, called Uninstallation.
