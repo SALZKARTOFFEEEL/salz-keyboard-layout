@@ -9,11 +9,11 @@ Here is a screenshot:
 
 ## Explanation
 My aim with this is to create a keyboard layout that has support for all Unicode symbols (among standard ASCII ones) that are used in everyday writing.  
-Some might say that it is not required to use Unicode symbols at all in daily writing. I think otherwise.  
-Even before creating this layout I have used those symbols through [AutoHotkey](https://autohotkey.com). That was a big pain but even that was okay, as long as I could use those symbols.  
-Now, with the creation of SLK, this was made much easier. All the symbols I need are there, right on my keyboard!
+Some might say that it is not required to use Unicode symbols at all in daily writing; I say otherwise.  
+Even before creating this layout I have used those symbols through [AutoHotkey](https://autohotkey.com). It was a big pain but even that was okay, as long as I could use those symbols.  
+Now, with the creation of SKL, this was made much easier. All the symbols I need are there, right on my keyboard!
 
-Also, it's just a nice challenge to throw away your muscle memory and learn a new layout!
+Also, it's just a nice challenge to throw out your muscle memory and learn a new layout!
 
 ## Installation
 Head over to the [Releases page of this project](https://github.com/SALZKARTOFFEEEL/salz-keyboard-layout/releases).
