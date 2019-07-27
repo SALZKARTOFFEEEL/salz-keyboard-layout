@@ -43,7 +43,7 @@ If you just want to use the keyboard layout and trust me on not infecting your c
 To build SKL, follow these steps:
 * First, clone this repository to your local computer or just download `KBDSALZ.klc`, as it is the only source file required.  
 * Next, install the [Microsoft Keyboard Layout Creator v1.4](https://www.microsoft.com/download/details.aspx?id=22339) (MSKLC for short).
-  * Be sure to install it in its default location, or at least its default drive. I've had trouble building when I installed it on a secondary drive.
+  * [Here is a short list of things to be aware of when installing and using MSKLC](https://gist.github.com/SALZKARTOFFEEEL/3156e59dc450b84483d74bb004befaa0) that I have compiled myself from painful experience >:(
 * Now open up the `.klc` file with MSKLC.  
 * Be sure to change the working directory; the built files, as well as any logs, will go into there!
 * Go to the menu “Project” and choose “Build DLL and Setup Package”.
