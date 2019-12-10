@@ -5,7 +5,7 @@ The SKL features a variety of (Unicode) symbols while aiming to be as logical an
 A handy spreadsheet displaying the layout [can be found here](https://docs.google.com/spreadsheets/d/1oFvmKjmBZegqOSWev_tbju-E4FzEx2xZXkOKFecYGdI/view).
 
 Here is a screenshot:
-![An Image of the Layout](https://files.catbox.moe/2550am.png)
+![An Image of the Layout](https://files.catbox.moe/eyunn8.png)
 
 ## Explanation
 My aim with this is to create a keyboard layout that has support for all Unicode symbols (among standard ASCII ones) that are used in everyday writing.  
