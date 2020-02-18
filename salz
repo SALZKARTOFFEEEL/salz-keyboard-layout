@@ -1,0 +1,64 @@
+// SALZ Keyboard Layout for Linux (xkb)
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    name[Group1]="SALZ Keyboard Layout"; // Just for the record: I forgot the semicolon at the end of this line and that caused me several hours of debugging with no progress whatsoever. I have a very strong hatred towards this line's semicolon.
+
+    include "level3(ralt_switch)"
+
+    key <TLDE> {[                    0,             question,         zerosuperior,               degree]};
+    key <AE01> {[                    1,               exclam,          onesuperior]                      };
+    key <AE02> {[                    2,             asterisk,          twosuperior]                      };
+    key <AE03> {[                    3,                slash,        threesuperior]                      };
+    key <AE04> {[                    4,            ampersand,         foursuperior]                      };
+    key <AE05> {[                    5,            backslash,         fivesuperior]                      };
+    key <AE06> {[                    6,              percent,          sixsuperior,             permille]};
+    key <AE07> {[                    7,           asciitilde,        sevensuperior]                      };
+    key <AE08> {[                    8,                  bar,        eightsuperior]                      };
+    key <AE09> {[                    9,           numbersign,         ninesuperior]                      };
+    key <AE10> {[                 plus,             multiply,                 less,                U22C5]};
+    key <AE11> {[                U2212,             division,              greater,                U2215]};
+    key <AE12> {[                equal,             notequal,             approxeq]                      };
+
+    key <AD01> {[                    q,                    Q]                                            };
+    key <AD02> {[                    w,                    W,              WonSign]                      };
+    key <AD03> {[                    e,                    E,             EuroSign]                      };
+    key <AD04> {[                    r,                    R,            RupeeSign]                      };
+    key <AD05> {[                    t,                    T,            trademark]                      };
+    key <AD06> {[                    y,                    Y,                  yen]                      };
+    key <AD07> {[                    u,                    U]                                            };
+    key <AD08> {[                    i,                    I]                                            };
+    key <AD09> {[                    o,                    O]                                            };
+    key <AD10> {[                    p,                    P,             sterling]                      };
+    key <AD11> {[  leftdoublequotemark,  leftsinglequotemark,   doublelowquotemark,   singlelowquotemark]};
+    key <AD12> {[ rightdoublequotemark, rightsinglequotemark,             quotedbl,           apostrophe]};
+
+    key <AC01> {[                    a,                    A,                   at]                      };
+    key <AC02> {[                    s,                    S,                ssharp,                U1E9E]};
+    key <AC03> {[                    d,                    D,               dollar]                      };
+    key <AC04> {[                    f,                    F]                                            };
+    key <AC05> {[                    g,                    G]                                            };
+    key <AC06> {[                    h,                    H]                                            };
+    key <AC07> {[                    j,                    J]                                            };
+    key <AC08> {[                    k,                    K]                                            };
+    key <AC09> {[                    l,                    L]                                            };
+    key <AC10> {[            parenleft,          bracketleft,            braceleft]                      };
+    key <AC11> {[           parenright,         bracketright,           braceright]                      };
+    key <BKSL> {[       dead_diaeresis,       dead_abovering,           dead_breve,          dead_macron]};
+
+    key <LSGT> {[           dead_grave,           dead_acute,      dead_circumflex,           dead_tidle]};
+    key <AB01> {[                    z,                    Z]                                            };
+    key <AB02> {[                    x,                    X]                                            };
+    key <AB03> {[                    c,                    C,            copyright]                      };
+    key <AB04> {[                    v,                    V]                                            };
+    key <AB05> {[                    b,                    B,                U20BF]                      };
+    key <AB06> {[                    n,                    N]                                            };
+    key <AB07> {[                    m,                    M,                   mu]                      };
+    key <AB08> {[                comma,            semicolon,   enfilledcircbullet]                      };
+    key <AB09> {[               period,                colon,             ellipsis]                      };
+    key <AB10> {[                minus,           underscore,               endash,               emdash]};
+
+    key <KPDL> {[               period,                comma,              figdash]      }
+
+};
